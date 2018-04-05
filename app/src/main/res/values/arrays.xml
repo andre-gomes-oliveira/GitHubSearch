@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The labels for each of the sorting options -->
+    <array name="sort_options_labels">
+        <item>@string/sort_option_stars_label</item>
+        <item>@string/sort_option_forks_label</item>
+        <item>@string/sort_option_updated_label</item>
+    </array>
+</resources>

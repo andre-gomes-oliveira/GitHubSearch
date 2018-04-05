@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GitHub buscador de Repositório</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- itens de interface -->
+    <string name="dialog_message">Faça uma nova busca nos repositórios</string>
+    <string name="dialog_confirm">Procurar</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <!-- Acessibilidade -->
+    <string name="content_description_repository_image">O avatar do dono do repositório</string>
+
+    <!-- Mensagens -->
+    <string name="dialog_cancel_message">The search was not updated</string>
+    <string name="error_loading_message">Erro ao carregar os repositórios. \n
+        Por favor, verifique a sua conexão com a internet.</string>
+    <string name="error_opening_repository">Ocorreu um erro ao tentar abrir esse repositório. \n
+        Por favor, tente novamente mais tarde.</string>
+
+    <!-- opções de ordenação, rótulos e valores -->
+    <string name="sort_spinner_title">Seletorr</string>
+    <string name="sort_option_stars_label">Mais estrelas</string>
+    <string name="sort_option_forks_label">Mais forks</string>
+    <string name="sort_option_updated_label">Recentemente atualizados</string>
+</resources>

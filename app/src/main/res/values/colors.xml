@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic theme colors -->
+    <color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#00363a</color>
+    <color name="colorPrimaryLight">#b2dfdb</color>
+    <color name="colorBackground">#263238</color>
+
+    <!-- Accent colors -->
+    <color name="colorAccent">#ff6e40</color>
+
+    <!-- Text colors -->
+    <color name="colorPrimaryText">#ffffff</color>
+    <color name="colorAccentText">#000000</color>
+</resources>

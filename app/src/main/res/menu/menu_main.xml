@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.gsw.githubsearch.myapplication.MainActivity">
+    <item
+        android:id="@+id/sort_functions_spinner"
+        android:title="@string/sort_spinner_title"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+</menu>

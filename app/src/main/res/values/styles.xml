@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:elevation">@dimen/bar_elevation</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:paddingTop">@dimen/bar_elevation</item>
+    </style>
+
+    <!-- Card View Theme -->
+    <style name="CardViewTheme" parent="CardView.Dark">
+        <item name="android:layout_marginTop">@dimen/card_vertical_margin</item>
+        <item name="android:layout_marginStart">@dimen/card_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/card_padding_top</item>
+        <item name="android:paddingStart">@dimen/card_padding_start</item>
+        <item name="android:paddingEnd">@dimen/card_padding_end</item>
+        <item name="android:paddingBottom">@dimen/card_padding_bottom</item>
+    </style>
+
+    <!-- Dialog theme -->
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:bottomBright">@color/colorPrimaryLight</item>
+        <item name="android:bottomDark">@color/colorPrimaryDark</item>
+        <item name="android:bottomMedium">@color/colorPrimary</item>
+        <item name="android:centerBright">@color/colorPrimaryLight</item>
+        <item name="android:centerDark">@color/colorPrimaryDark</item>
+        <item name="android:centerMedium">@color/colorPrimary</item>
+        <item name="android:fullBright">@color/colorPrimaryLight</item>
+        <item name="android:fullDark">@color/colorPrimaryDark</item>
+        <item name="android:topBright">@color/colorPrimaryLight</item>
+        <item name="android:topDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Title theme -->
+    <style name="TitleTheme" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:paddingTop">@dimen/title_padding_top</item>
+        <item name="android:paddingLeft">@dimen/title_padding_left</item>
+        <item name="android:paddingRight">@dimen/title_padding_right</item>
+        <item name="android:paddingBottom">@dimen/title_padding_bottom</item>
+        <item name="android:textSize">@dimen/repository_title_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">@integer/title_max_lines</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Subtitle theme -->
+    <style name="SubtitleTheme" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:paddingLeft">@dimen/title_padding_left</item>
+        <item name="android:paddingRight">@dimen/title_padding_right</item>
+        <item name="android:paddingBottom">@dimen/title_padding_bottom</item>
+        <item name="android:textSize">@dimen/repository_subtitle_text_size</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:maxLines">@integer/subtitle_max_lines</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- Plain Text theme -->
+    <style name="PlainTextTheme" parent="SubtitleTheme">
+        <item name="android:textColor">@color/colorAccentText</item>
+    </style>
+
+</resources>

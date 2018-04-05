@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- Repository highlights -->
+    <dimen name="repository_title_text_size">24sp</dimen>
+    <dimen name="repository_subtitle_text_size">16sp</dimen>
+    <dimen name="repository_body_text_size">20sp</dimen>
+    <dimen name="repository_header_image_height">300dp</dimen>
+
+    <!-- Card View -->
+    <dimen name="card_vertical_margin">8dp</dimen>
+    <dimen name="card_horizontal_margin">4dp</dimen>
+    <dimen name="card_padding_top">8dp</dimen>
+    <dimen name="card_padding_start">12dp</dimen>
+    <dimen name="card_padding_end">12dp</dimen>
+    <dimen name="card_padding_bottom">8dp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="card_image_width">200dp</dimen>
+
+    <!-- Article activity -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

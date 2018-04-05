@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, according to the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">8dp</dimen>
+
+    <!-- Card View -->
+    <dimen name="card_vertical_margin">4dp</dimen>
+    <dimen name="card_horizontal_margin">4dp</dimen>
+    <dimen name="card_padding_top">4dp</dimen>
+    <dimen name="card_padding_start">8dp</dimen>
+    <dimen name="card_padding_end">8dp</dimen>
+    <dimen name="card_padding_bottom">4dp</dimen>
+    <dimen name="card_image_height">150dp</dimen>
+    <dimen name="card_image_width">150dp</dimen>
+
+    <!-- Repository highlights -->
+    <dimen name="repository_title_text_size">16sp</dimen>
+    <dimen name="repository_subtitle_text_size">12sp</dimen>
+    <dimen name="repository_body_text_size">20sp</dimen>
+    <dimen name="repository_header_image_height">200dp</dimen>
+    <dimen name="repository_horizontal_margin">4dp</dimen>
+    <dimen name="repository_vertical_margin">8dp</dimen>
+
+    <!-- Text -->
+    <integer name="title_max_lines">4</integer>
+    <integer name="subtitle_max_lines">2</integer>
+
+    <dimen name="title_padding_top">16dp</dimen>
+    <dimen name="title_padding_left">16dp</dimen>
+    <dimen name="title_padding_right">16dp</dimen>
+    <dimen name="title_padding_bottom">4dp</dimen>
+
+    <!-- Others -->
+    <dimen name="bar_elevation">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
