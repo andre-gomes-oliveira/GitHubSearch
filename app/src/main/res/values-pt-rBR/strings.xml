@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GitHub buscador de Repositório</string>
-    <string name="action_settings">Configurações</string>
 
     <!-- itens de interface -->
     <string name="dialog_message">Faça uma nova busca nos repositórios</string>

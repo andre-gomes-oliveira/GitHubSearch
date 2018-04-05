@@ -3,7 +3,6 @@
     <string name="app_name">GitHub repo Search</string>
 
     <!-- ui items -->
-    <string name="action_settings">Settings</string>
     <string name="dialog_message">Perform a new repository search</string>
     <string name="dialog_confirm">Search</string>
     <string name="dialog_cancel">Cancel</string>
@@ -23,7 +22,7 @@
     <string name="sort_option_stars_label">Most stars</string>
     <string name="sort_option_forks_label">Most forks</string>
     <string name="sort_option_updated_label">Recently updated</string>
-    <string name="default_query">android</string>
+    <string name="default_query" translatable="false">android</string>
     <string name="sort_option_stars_value" translatable="false">stars</string>
     <string name="sort_option_forks_value" translatable="false">forks</string>
     <string name="sort_option_updated_value" translatable="false">updated</string>

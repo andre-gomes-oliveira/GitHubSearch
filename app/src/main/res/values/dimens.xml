@@ -1,7 +1,5 @@
 <resources>
     <!-- Default screen margins, according to the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="text_margin">8dp</dimen>
 
@@ -18,8 +16,6 @@
     <!-- Repository highlights -->
     <dimen name="repository_title_text_size">16sp</dimen>
     <dimen name="repository_subtitle_text_size">12sp</dimen>
-    <dimen name="repository_body_text_size">20sp</dimen>
-    <dimen name="repository_header_image_height">200dp</dimen>
     <dimen name="repository_horizontal_margin">4dp</dimen>
     <dimen name="repository_vertical_margin">8dp</dimen>
 

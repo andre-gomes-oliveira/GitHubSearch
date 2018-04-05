@@ -14,9 +14,9 @@ import timber.log.Timber;
 public class NetworkUtilities {
 
     //Static strings used to build the URI
-    final static String GITHUB_BASE_URL = "https://api.github.com/search/repositories";
-    final static String PARAM_QUERY = "q";
-    final static String PARAM_SORT = "sort";
+    private final static String GITHUB_BASE_URL = "https://api.github.com/search/repositories";
+    private final static String PARAM_QUERY = "q";
+    private final static String PARAM_SORT = "sort";
 
     /**
      * Builds the URL used to query GitHub.

@@ -14,8 +14,6 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
-
 import br.com.gsw.githubsearch.R;
 import timber.log.Timber;
 

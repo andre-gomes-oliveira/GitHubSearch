@@ -10,6 +10,7 @@ import org.json.JSONException;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 
 import br.com.gsw.githubsearch.R;
 import br.com.gsw.githubsearch.utilities.JSONUtilities;
@@ -37,7 +38,7 @@ public class RepositoryLoader extends AsyncTaskLoader<Repository[]> {
     @Override
     public Repository[] loadInBackground() {
         Context context = getContext();
-        String query = mBundle.getString(context.getString(R.string.bundle_repo_query));
+        String query = Objects.requireNonNull(mBundle).getString(context.getString(R.string.bundle_repo_query));
         String sortCriteria = mBundle.getString(context.getString(R.string.bundle_repo_sort));
 
         if (query != null && !query.isEmpty()) {

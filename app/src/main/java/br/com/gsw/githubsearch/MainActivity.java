@@ -1,7 +1,6 @@
 package br.com.gsw.githubsearch;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -28,13 +27,11 @@ import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import java.net.URL;
 import java.util.Objects;
 
 import br.com.gsw.githubsearch.data.Repository;
 import br.com.gsw.githubsearch.data.RepositoryAdapter;
 import br.com.gsw.githubsearch.data.RepositoryLoader;
-import br.com.gsw.githubsearch.utilities.NetworkUtilities;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import timber.log.Timber;
@@ -77,7 +74,7 @@ public class MainActivity extends AppCompatActivity
     private RepositoryAdapter mAdapter;
 
     //The action spinner
-    Spinner mSpinner;
+    private Spinner mSpinner;
 
     //The spinner position
     private int mPosition;
@@ -227,8 +224,6 @@ public class MainActivity extends AppCompatActivity
     private void makeRepositoriesRequest() {
         mErrorMessageDisplay.setVisibility(View.GONE);
         mProgressBar.setVisibility(View.VISIBLE);
-
-        mAdapter.clearData();
 
         LoaderManager loaderManager = getSupportLoaderManager();
 

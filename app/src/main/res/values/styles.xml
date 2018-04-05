@@ -35,18 +35,6 @@
     </style>
 
     <!-- Dialog theme -->
-    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
-        <item name="android:bottomBright">@color/colorPrimaryLight</item>
-        <item name="android:bottomDark">@color/colorPrimaryDark</item>
-        <item name="android:bottomMedium">@color/colorPrimary</item>
-        <item name="android:centerBright">@color/colorPrimaryLight</item>
-        <item name="android:centerDark">@color/colorPrimaryDark</item>
-        <item name="android:centerMedium">@color/colorPrimary</item>
-        <item name="android:fullBright">@color/colorPrimaryLight</item>
-        <item name="android:fullDark">@color/colorPrimaryDark</item>
-        <item name="android:topBright">@color/colorPrimaryLight</item>
-        <item name="android:topDark">@color/colorPrimaryDark</item>
-    </style>
 
     <!-- Title theme -->
     <style name="TitleTheme" parent="TextAppearance.AppCompat.Subhead">
