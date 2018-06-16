@@ -1,15 +1,15 @@
-# GitHubSearch
-A simple app that searches for public repositories in GitHub
+# GitHub Search
+A simple app that searches for public repositories in GitHub.
 
 ## Description
 
-A simple app the searches GitHub repositories, allowing the user to quickly list, navigate and check GitHub repositories based on a simple text based searches.
+A simple app the searches GitHub repositories, allowing the user to quickly list, navigate and check GitHub repositories based on simple text-based searches.
 
 ## Features
 
 Th features that this app provides are:
 
-* Text based search on GitHub that queries for repositories based on one or multiple keywords;
+* Text-based search on GitHub that queries for repositories based on one or multiple keywords;
 * Provides sorting options based on three different criteria;
   * Most stars;
   * Most forks;
