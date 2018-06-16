@@ -225,6 +225,10 @@ public class MainActivity extends AppCompatActivity
         mErrorMessageDisplay.setVisibility(View.GONE);
         mProgressBar.setVisibility(View.VISIBLE);
 
+        if(mAdapter != null){
+            mAdapter.clearData();
+        }
+
         LoaderManager loaderManager = getSupportLoaderManager();
 
         Bundle requestBundle = new Bundle();
